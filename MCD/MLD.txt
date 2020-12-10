@@ -1,0 +1,4 @@
+Utilisateur = (id_utilisateur COUNTER, pseudo VARCHAR(50), email VARCHAR(255), mdp VARCHAR(255), rang VARCHAR(50), avatar VARCHAR(255), date_inscription DATETIME);
+Categorie = (id_categorie COUNTER, titre VARCHAR(255));
+Sujet = (id_sujet COUNTER, titre VARCHAR(255), date_creation DATETIME, statut VARCHAR(50), #id_categorie, #id_utilisateur);
+Message = (id_message COUNTER, contenu TEXT, date_creation DATETIME, #id_sujet, #id_utilisateur);

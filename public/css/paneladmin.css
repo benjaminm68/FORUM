@@ -1,0 +1,16 @@
+.panel{
+    padding: 1em;
+    height: auto;
+}
+
+h3{
+    text-align: center;
+}
+
+a:hover{
+    color: #00b0a6;
+}
+
+li{
+    list-style: circle;
+}

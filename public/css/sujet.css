@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.flex{
+    display: flex;
+}
+
+.user{
+    width: 20%;
+    padding: 1em 0;
+    text-align: center;
+    border-right: 2px solid #EDF0F4;
+}
+
+.user figure{
+    margin: 0 auto;
+}
+
+.user figure img{
+    width: 50%;
+}
+
+.user h4{
+    margin: 0;
+}
+
+.user p{
+    margin-top: 0;
+    font-size: small;
+    text-transform: capitalize;
+}
+
+.contenu{
+    width: 80%;
+    padding: 1em;
+}
+
+.heure p{
+    margin: 0;
+    font-size: smaller;
+    color: grey;
+    font-style: italic;
+}
+
+.action{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 0;
+}
+
+.action a {
+    margin: 0 0.5em;
+}
+
+.btn-supp{
+    background: red;
+}
+
+.message{
+    margin-top: 1em;
+}
+.newmsg{
+    margin-top: 1em;
+}

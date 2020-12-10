@@ -1,0 +1,103 @@
+
+/*
+    BIENVENUE
+                */
+.bienvenue{
+    width: 80%;
+    background: white;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px -2px #888888;
+}
+
+.bienvenue-content{
+    background: #EDF0F4;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+.bienvenue-content p{
+    font-size: 13px;
+}
+
+.bienvenue-content span{
+    color: #00b0a6;
+    text-transform: capitalize;
+}
+
+.bienvenue-content h3{
+    margin: 0;
+}
+
+.bienvenue-content .btn-connect{
+    margin: 0!important;
+}
+
+.bienvenue-content i{
+    padding-right: 0.5em;
+}
+
+.bienvenue-connect{
+    margin: 1.5em 0 1em 0;
+}
+
+/*
+    SECTION FORUM
+                */
+
+.section-forum{
+    margin-top: 1em;
+    width: 80%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 3px 4px -2px #888888;
+}
+
+.section-forum h3{
+    margin: 0;
+    padding: 0.5em;
+    border-bottom: 2px solid #EDF0F4;
+}
+
+.categ-content, .sujet-content{
+    padding: 1em;
+    border-bottom: 1px solid #EDF0F4;
+}
+
+.categ-img, .sujet-img{
+    margin: auto;
+    padding: 0 1em 0 0;
+}
+
+.categ-content a, .sujet-content a{
+    font-weight: 600;
+    color: #333333;
+}
+
+ .titre-desc, .titre-sujet{
+    width: 55%;
+}
+
+.stat{
+    text-align: right;
+    width: 15%;
+}
+
+.last-sujet, .last-msg{
+    text-align: right;
+    width: 30%;
+}
+
+.titre-desc p, .titre-sujet p, .stat p, .last-sujet p, .last-msg p{
+    margin: 0;
+    color: grey;
+    font-size: small;
+}
+
+.stat p:first-child, .last-sujet p:first-child, .last-msg p:first-child{
+    color: #333333;
+    font-weight: 600;
+}
+
+
+

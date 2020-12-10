@@ -1,0 +1,44 @@
+/* form{
+    width: 100%;
+} */
+
+form .titre-form, .message-form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input[name="titre"]{
+    width: 50%;
+    height: 3em;
+} 
+
+textarea{
+    height: 25em;
+}
+
+form input[name="titre"], textarea{
+    margin-bottom: 1em;
+    border: 1px solid #00b0a6;
+} 
+
+form .titre-form span, .message-form span{
+    color: red;
+}
+
+form label, form input[type='submit'] {
+    font-weight: 600;
+    color: #333333;
+}
+
+form input[type='submit']{
+    border: 1px solid #00b0a6;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.5em 3em;
+}
+
+form input[type='submit']:hover{
+    background-color: #00b0a6;
+    color: white;
+    transition: 1s;
+}

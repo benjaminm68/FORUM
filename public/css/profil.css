@@ -1,0 +1,120 @@
+#page{
+    display: flex;
+    margin-top: 5em;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+
+.user-info a{
+    color: #333333;
+}
+
+.content p{
+    color: #00b0a6;
+    margin: 0.2em 0 2em 0;
+    font-size: small;
+}
+
+.edit-icon{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    color: blue;
+}
+
+.edit-icon i{
+    color: #177EC9;
+}
+
+.btn-delete{
+    background: red;
+    color: white!important;
+    padding: 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.delete{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.user-email .fas, .user-mdp .fas{
+    color: grey;
+}
+
+.content h4{
+    margin: 0;
+}
+
+.content-stat h4{
+    margin-bottom: 0;
+}
+
+.avatar h3{
+    color: #00b0a6;
+    text-transform: capitalize;
+}
+
+.user-info{
+    position: relative;
+    width: 37%;
+    height: 500px;
+    padding: 10em 1em;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 1px 3px 4px -2px #888888;
+}
+
+.avatar{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top: -19%;
+    right: 25%;
+}
+
+.avatar img{
+    width: 90%;
+    /* border: 10px solid #00b0a6; */
+    /* border-radius: 100%;
+    box-shadow: 1px 3px 4px -2px #888888; */
+}
+
+.user-email, .user-mdp{
+    justify-content: space-between;
+}
+
+/*
+    USER STATISTIQUES 
+                        */
+.user-stat{
+    width: 50%;
+    padding: 1em 3em;
+    height: 10em;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 1px 3px 4px -2px #888888;
+}
+
+.user-stat h3{
+    text-align: center;
+    margin: 0;
+}
+
+.user-stat span{
+    color: #00b0a6;
+    text-transform: capitalize;
+}
+
+.sujet-stat, .msg-stat{
+    justify-content: space-between;
+}
+
+.sujet-stat p, .msg-stat p{
+    color: #00b0a6;
+    font-weight: 600;
+    margin-bottom: 0;
+}

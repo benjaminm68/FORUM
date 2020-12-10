@@ -1,0 +1,149 @@
+*{
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: #EDF0F4; 
+}
+
+.flex{
+    display: flex;
+}
+
+.padding{
+    padding: 2em 11em;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3,h4{
+    color: #333333;
+}
+
+.deconnexion{
+    background-color: red!important;
+}
+/*
+    HEADER
+            */
+header{
+    width: 100%;
+}
+
+header{
+    height: 5em;
+    background: #00B0A6;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connect-top{
+    align-items: center;
+}
+
+.connect-top p{
+    margin: 0 0.3em 0 0;
+    color: white;
+}
+
+.connect-top a:nth-child(2){
+    color: red;
+}
+
+.btn-connect{
+    background: #177EC9;
+    color: white;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin: 0 0 0 1em;
+}
+
+.connect-top i{
+    padding-right: 0.5em;
+}
+
+/*
+    BOTTOM-HEADER
+                    */
+.bottom-header{
+    height: 4em;
+    background: #1AB7AE;
+    /* border-top: 1px solid #EDF0F4; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-header a{
+    color: #a1eae3;
+    margin: 0 3em 0 0px;
+}
+
+.bottom-header nav a:hover{
+    color: white;
+}
+
+.active{
+    color: white!important;
+    font-weight: 700;
+}
+
+.bottom-header nav{
+    align-items: center;
+    height: 100%;
+}
+
+
+.bottom-header input{
+    position: relative;
+    width: 100%;
+    height: 2em;
+    border: none;
+    border-radius: 5px;
+    padding: 0 0 0 2em;
+}
+
+.bottom-header i{
+    position: absolute;
+    left: 74.4%;
+    top: 16.7%;
+    color: #333333;
+    z-index: 1;
+}
+
+/*
+    FOOTER
+            */
+footer{
+  
+    height: 5em;
+    border-top: 10px solid white;
+   
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.copyright{
+    color: #00B0A6;
+}
+
+.social i{
+    color: #cacdd0;
+    font-size: 1.5em;
+}
+
+.social i:hover{
+    color: #333333;
+}

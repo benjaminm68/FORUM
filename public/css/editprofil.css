@@ -1,0 +1,78 @@
+.user-stat{
+    width: 50%;
+    padding: 1em 3em 2em;
+    height: auto;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 1px 3px 4px -2px #888888;
+    margin-bottom: 0.5em;
+}
+
+.user-stat h3{
+    text-align: center;
+    margin: 0;
+}/* modif form */
+
+.modif{
+    width: 100%;
+}
+
+.modif form{
+    width: 100%;
+    margin: auto;
+}
+
+.modif form input{
+    width: 100%;
+    height: 2.5em;
+    border: 1px solid #00b0a6;
+    outline: none;
+}
+
+/* .modif form .top-form input{
+    background: rgb(182, 182, 182);
+} */
+
+.top-form, .bottom-form{
+    margin: 0.5em 0;
+}
+
+form input[type='submit']{
+    border: 1px solid #00b0a6;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.5em 3em;
+}
+
+form input[type='submit']:hover{
+    background-color: #00b0a6;
+    color: white;
+    transition: 1s;
+}
+
+form label, form input[type='submit'] {
+    font-weight: 600;
+    color: #333333;
+}
+
+form label{
+    font-size: small;
+}
+
+form label span{
+    color: red!important;
+}
+
+.error{
+    color: red;
+    text-align: center;
+}
+
+.edit{
+    width: 50%;
+}
+
+.error{
+    color: red;
+    text-align: center;
+}
