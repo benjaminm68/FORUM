@@ -1,5 +1,5 @@
 # FORUM
-Exercice durant ma formation professionelle développeur web/web mobile
+Exercice durant ma formation professionnelle développeur web/web mobile
 
 Lien du PDF: http://benjaminmonvoisin.fr/pdf/Exo_Forum_VG_V1.0.pdf
 
