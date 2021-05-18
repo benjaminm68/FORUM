@@ -49,7 +49,7 @@ $id = $_SESSION['user']->getId();
 
 <div class="edit">
 
-    <!-- MODIFIERLE PSEUDO -->
+    <!-- MODIFIER LE PSEUDO -->
 
     <div class="user-stat modif">
         <h3>Modifier mon Pseudo</h3>
